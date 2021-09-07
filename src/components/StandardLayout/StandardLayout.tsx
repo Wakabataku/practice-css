@@ -12,7 +12,6 @@ import ranking from '../../images/ranking.jpg'
 import arrow from '../../images/arrow.gif'
 
 const StandardLayout = () => {
-  const a = 1
   return (
     <>
       <StandardStyle />
