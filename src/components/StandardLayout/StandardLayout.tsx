@@ -2,7 +2,6 @@ import React from 'react'
 import styled, { createGlobalStyle, css } from 'styled-components'
 
 import { Clearfix } from '../../shared/Clearfix'
-import { CheckContents } from '../../shared/CheckContents'
 import bgHeader from '../../images/bg-header.gif'
 import logo from '../../images/logo.png'
 import hotTopic from '../../images/hot-topic.jpg'

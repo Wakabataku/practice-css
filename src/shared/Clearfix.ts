@@ -1,9 +1,9 @@
 import { css } from 'styled-components'
 
 export const Clearfix = css`
-&:after {
+  &:after {
     content: '';
     display: block;
     clear: both;
-}
+  }
 `
