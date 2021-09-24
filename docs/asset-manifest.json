@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/practice-css/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/practice-css/static/js/main.8e2f5bbf.chunk.js",
+    "main.js.map": "/practice-css/static/js/main.8e2f5bbf.chunk.js.map",
+    "runtime-main.js": "/practice-css/static/js/runtime-main.9224ec3d.js",
+    "runtime-main.js.map": "/practice-css/static/js/runtime-main.9224ec3d.js.map",
+    "static/js/2.41ade064.chunk.js": "/practice-css/static/js/2.41ade064.chunk.js",
+    "static/js/2.41ade064.chunk.js.map": "/practice-css/static/js/2.41ade064.chunk.js.map",
+    "index.html": "/practice-css/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/practice-css/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.41ade064.chunk.js.LICENSE.txt": "/practice-css/static/js/2.41ade064.chunk.js.LICENSE.txt",
+    "static/media/bg.1f653203.png": "/practice-css/static/media/bg.1f653203.png",
+    "static/media/building.aabe9dda.jpg": "/practice-css/static/media/building.aabe9dda.jpg",
+    "static/media/lake.f4e0ad2f.jpg": "/practice-css/static/media/lake.f4e0ad2f.jpg",
+    "static/media/sky.e01c47ab.jpg": "/practice-css/static/media/sky.e01c47ab.jpg",
+    "static/media/tree.f81b3b04.jpg": "/practice-css/static/media/tree.f81b3b04.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9224ec3d.js",
+    "static/js/2.41ade064.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.8e2f5bbf.chunk.js"
+  ]
+}

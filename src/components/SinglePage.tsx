@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLightbulb } from '@fortawesome/free-regular-svg-icons'
 import { faPaintBrush, faCode } from '@fortawesome/free-solid-svg-icons'
 
-// import { sp } from '../shared/media'
+import { sp } from '../shared/media'
 import bg from '../images/bg.png'
 import tree from '../images/tree.jpg'
 import building from '../images/building.jpg'
@@ -167,11 +167,13 @@ const Body = styled.div`
     letter-spacing: 2px;
     font-size: 4rem;
   }
+  ${sp`
+  font-size: 1.3rem;
+  `}
 `
 
 const Header = styled.header`
   padding: 170px 30px 80px;
-
   .site-title-sub {
     margin: 0 0 30px;
     letter-spacing: 1px;
@@ -196,6 +198,21 @@ const Header = styled.header`
     color: #888;
     font-size: 1.6rem;
   }
+  ${sp`
+  .site-title-sub {
+    font-size: 3.5 rem;
+    &::before, &::after {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
+  .site-title {
+    margin-top:35px;
+    font-size: 5rem;
+  }
+  padding-top: 60px;
+  `}
 `
 
 const Button = styled.a`
@@ -212,6 +229,10 @@ const Button = styled.a`
   &:hover {
     opacity: 0.9;
   }
+  ${sp`
+  opacity: 1;
+  `}
+
 `
 
 const ButtonShowy = styled(Button)`
@@ -243,6 +264,15 @@ const About = styled.section`
     margin: 30px 0;
     line-height: 2.5;
   }
+
+  ${sp`
+  .heading {
+    font-size: 2.5rem;
+  }
+  .about-text {
+    line-height: 1.8;
+  }
+  `}
 `
 
 const Works = styled.section`
@@ -316,6 +346,24 @@ const WorksWrapper = styled.div`
     font-size: 1.2rem;
     line-height: 2;
   }
+  ${sp`
+  display: block;
+  .work-box {
+    display: block;
+    &::after {
+      top: 0;
+      height: 100%;
+      background-size: cover;
+      transform: none;
+    }
+  }
+  .work-image {
+    display: none;
+  }
+  .work-description {
+    position: relative;
+  }
+  `}
 `
 
 const ButtonGhost = styled(Button)`
@@ -336,6 +384,9 @@ const Skills = styled.section`
     margin: 50px auto 0;
     table-layout: fixed;
   }
+  ${sp`
+  display: block;
+  `}
 `
 
 const SkillBox = styled.div`
@@ -358,6 +409,19 @@ const SkillBox = styled.div`
     color: #f1b400;
     line-height: 142px;
   }
+  ${sp`
+  display: block;
+  margin: 40px auto;
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    line-height: 92px;
+  }
+  .skill-text {
+    margin: 0;
+  }
+  `}
 `
 
 const Contact = styled.section`
@@ -398,6 +462,14 @@ const Contact = styled.section`
       background-color: rgba(255, 255, 255, 0.05);
     }
   }
+  ${sp`
+  .contact-form {
+    width: 80%;
+  }
+  .contact {
+    padding-bottom: 80px;
+  }
+  `}
 `
 
 const Footer = styled.footer`
